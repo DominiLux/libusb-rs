@@ -5,14 +5,14 @@ authors = ["David Cuddeback <david.cuddeback@gmail.com>"]
 description = "Rust library for accessing USB devices."
 license = "MIT"
 homepage = "https://github.com/dcuddeback/libusb-rs"
-repository = "https://github.com/dcuddeback/libusb-rs.git"
+repository = "https://github.com/DominiLux/libusb-rs.git"
 documentation = "http://dcuddeback.github.io/libusb-rs/libusb/"
 readme = "README.md"
 keywords = ["usb", "libusb", "hardware", "bindings"]
 
 [dependencies]
 bit-set = "0.2.0"
-libusb-sys = { git = "https://github.com/ethcore/libusb-sys" }
+libusb-sys = { git = "https://github.com/DominiLux/libusb-sys" }
 libc = "0.2"
 
 [dev-dependencies]
